@@ -40,6 +40,8 @@ text-align: center;
 max-width: 600px;
 color: white;
 margin: 10px 20px;
+justify-content: center;
+align-items: center;
 }
 .hero h1 {
 font-size: 48px;
@@ -97,13 +99,87 @@ margin-top: 40px;
 .card {
 width: 22%;
 padding: 30px;
-background: #f5f5f5;
+background: #e7cbcb;
 border-radius: 10px;
 font-weight: bold;
+justify-content: center;
+align-items: center;
 }
 .card p {
 text-align: center;
 font-weight: 50;
 padding-top: 10px;
 color: darkgrey;
+justify-content: center;
+align-items: center;
+margin: 0 auto;
+display: flex;
+}
 
+.solution {
+padding-top: 20PX;
+padding-left: 50px;
+display: flex;
+
+}
+
+.solution-content  {
+margin-top: 5px;
+padding: 80px 300px;
+justify-content: space-between;
+}
+.solution-content span {
+color:#30b868;
+
+}
+.solution-content h2 {
+margin: 0 auto;
+padding-top: 10px;
+font-weight: bold;
+
+}
+.solution-content p{
+    padding-top: 10px;
+}
+.checklist {
+list-style: none;
+padding-top: 10px;
+}
+.last {
+text-align: center;
+padding: 10px 10px;
+margin-top: 10px;
+background-color: bisque;
+}
+.footer {
+background: #0b1c2d;
+color:white;
+text-align: center;
+padding: 30PX;
+display: flex;
+justify-content: space-between;
+}
+.footer-content a {
+padding-top: 10px;
+justify-content: space-between;
+}
+#bottom {
+
+}
+.circle {
+background-color:#f95555 ;
+border-radius:50%;
+height:50px;
+width: 50px;
+display: flex;
+justify-content: center;
+align-items: center;
+padding:7px 9px ;
+}
+#last-content p{
+padding: 1em;
+color: darkgrey;
+}
+#last-content p {
+    padding-top: 20px;
+}
