@@ -78,3 +78,32 @@ color: white;
     margin: auto;
     cursor: pointer;
 }
+.problems {
+
+    padding: 80px;
+    text-align: center;
+}
+.problems p {
+color: darkgray;
+
+
+}
+.cards {
+display: flex;
+justify-content: space-between;
+margin-top: 40px;
+
+}
+.card {
+width: 22%;
+padding: 30px;
+background: #f5f5f5;
+border-radius: 10px;
+font-weight: bold;
+}
+.card p {
+text-align: center;
+font-weight: 50;
+padding-top: 10px;
+color: darkgrey;
+
